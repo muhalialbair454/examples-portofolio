@@ -1,0 +1,101 @@
+
+.nav-link{
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.nav-link:hover{
+    background-color: #F7C71F;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.btn-primary{
+    background: #F7C71F;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold
+}
+
+.btn-primary:hover{
+    background-color: rgb(194, 160, 40);
+    border: 0;
+}
+
+.btn-secondary{
+    background: #F7C71F;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: rgb(194, 160, 40);
+    border: 0;
+}
+
+.top-wrapper h1{
+    font-family:'Poppins', sans-serif;
+    font-weight: 700;
+    color: #2F281E;
+}
+
+.top-wrapper p{
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-link{
+    color: #2F281E;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 4px solid #F7C71F;
+}
+
+.job{
+    margin-left: 100px;
+}
+
+#portfolio img{
+    padding: 15px !important;
+}
+
+.blog .card img {
+    width: 100%;
+    height: 12em;
+}
+
+h1{
+    color: #F7C71F;
+}
+
+.team .des {
+    background: #F97300;
+    color: #fff;
+    text-align: center;
+    border-top-right-radius: 93%;
+    transition: .3s ease-in-out;
+    position: absolute;
+    width: 88%;
+    bottom: 24px;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+/*No media query since this is the default in Bootstrap*/
+@media only screen and (max-width: 768px) {
+    .btn-primary, .btn-secondary {
+        margin-top: 10px;
+        margin-left: 0 !important;
+    }
+}
